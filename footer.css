@@ -1,0 +1,47 @@
+		footer {
+			background-color: #d1f6ff;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			box-sizing: border-box
+		}
+
+		header {
+			background-color: #FF0000;
+			padding: 30px;
+			text-align: center;
+			font-size: 35px;
+			color: #FF0000;
+			box-sizing: border-box
+		}
+		
+		nav {
+			float: left;
+			width: 30%;
+			height: 1180px;
+			background: #8ed5f0;
+			padding: 20px;
+			box-sizing: border-box
+		}
+		
+	
+		article {
+			float: left;
+			padding: 20px;
+			width: 70%;
+			background-color: #9cf2ee;
+			height: 1180px;
+			box-sizing: border-box
+		}
+		
+
+		section:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+
+		nav ul {
+			list-style-type: none;
+			padding: 0;
